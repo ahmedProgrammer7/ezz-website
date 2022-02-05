@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+  <title>Ezz Website</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./src/xml.svg" alt="logo" width="40" height="40">
+      <h1>Ezz</h1>
+    </div>
+    <div>
+      <div class="toggle" onclick="toggleBar()">
+        <div class="bar" onclick="toggleBar()"></div>
+        <div class="bar" onclick="toggleBar()"></div>
+        <div class="bar" onclick="toggleBar()"></div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#projects" onclick="alert('sorry, no projects yet')">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="home">
+    <div>
+      <p>UI & UX design</p>
+      <h2>Improve your <br> website design <br> for cheap</h2>
+      <a href="#contact">Enroll Now</a>
+    </div>
+    <div>
+      <img src="./src/undraw_proud_coder_7ain.svg" alt="home image" width="540">
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div>
+      <h2>About</h2>
+      <h4>My name is Ahmed Ezz and i am a UI & UX designer as well as a Front-End developer</h4>
+      <h3>Technologies</h3>
+      <ul>
+        <li><b>Markup Language:</b> HTML5 & CSS3</li>
+        <li><b>Scripting Language:</b> JavaScript</li>
+        <li><b>CSS Pre-processor:</b> Sass/Scss, Less & Stylus</li>
+        <li><b>Front-End Framework:</b> Vue</li>
+        <li><b>Version Control System:</b> Git</li>
+        <li><b>UI & UX design:</b> Figma</li>
+        <li>
+          <b>Additional libraries:</b>
+          vue x, vue router, nuxt js, vuetify, quasar, bootstrap & tailwind css
+        </li>
+      </ul>
+      <p>I am passionate and ready to learn more technologies</p>
+    </div>
+    <div>
+      <img src="./src/undraw_javascript_frameworks_-8-qpc.svg" alt="javascript frameworks" width="340">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="card">
+      <img src="./src/phone.svg" alt="phone" width="50">
+      <h3>PHONE</h3>
+      <p>+201033054658</p>
+    </div>
+    <div class="card">
+      <img src="./src/email.svg" alt="email" width="50">
+      <h3>EMAIL</h3>
+      <p>ahmedez25thjuly@gmail.com</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>All rights reserved &copy; Ahmed Ezz</p>
+  </footer>
+</body>
+</html>
